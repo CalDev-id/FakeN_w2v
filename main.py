@@ -97,9 +97,9 @@ def load_data(file_path):
 # Main script
 if __name__ == '__main__':
     # Paths to datasets
-    train_path = 'datasets/train.csv'
-    val_path = 'datasets/validation.csv'
-    test_path = 'datasets/test.csv'
+    train_path = '/datasets/train.csv'
+    val_path = '/datasets/validation.csv'
+    test_path = '/datasets/test.csv'
 
     # Hyperparameters
     max_len = 50
