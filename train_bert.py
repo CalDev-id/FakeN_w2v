@@ -108,7 +108,7 @@ history = model.fit(
         {"input_ids": X_val["input_ids"], "attention_mask": X_val["attention_mask"]},
         y_val
     ),
-    epochs=50,
+    epochs=10,
     batch_size=16
 )
 
